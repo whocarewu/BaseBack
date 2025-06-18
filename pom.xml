@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cn</groupId>
-	<artifactId>ExcelImportTest</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>Base</artifactId>
+	<version>1.0.1</version>
 	<name>ExcelImportTest</name>
-	<description>ExcelImportTest</description>
+	<description>基础版本-V1</description>
 	<url/>
 	<licenses>
 		<license/>
