@@ -11,7 +11,7 @@
 	<groupId>com.cn</groupId>
 	<artifactId>Base</artifactId>
 	<version>1.0.1</version>
-	<name>ExcelImportTest</name>
+	<name>Base</name>
 	<description>基础版本-V1</description>
 	<url/>
 	<licenses>
