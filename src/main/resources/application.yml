@@ -6,7 +6,22 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss  # 全局 JSON 日期格式
     time-zone: GMT+8                  # 设置时区为中国标准时间
-
+  data:
+    redis:
+      # Redis 主机地址
+      host: 139.224.133.80
+      # Redis 主机端口
+      # port: 6060
+      port: 6379
+      # Redis 主机密码
+      password: question0.
+      # 连接的库索引
+      database: 0
+      lettuce:
+        pool:
+          max-active: 100    # 最大并发连接数
+          max-idle: 50       # 最大空闲连接数
+          min-idle: 10       # 最小空闲连接数
   datasource:
     url: jdbc:mysql://139.224.133.80:3306/petSystem?characterEncoding=utf-8&serverTimezone=Asia/Shanghai  # 数据库连接 URL
     username: root             # 数据库用户名
@@ -33,3 +48,4 @@ mybatis-plus:
       id-type: auto                     # 主键生成策略（数据库自增）
 
   mapper-locations: classpath*:mapper/**/*.xml  # 指定 Mapper XML 文件路径，支持多模块扫描
+
